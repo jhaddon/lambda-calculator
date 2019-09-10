@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NumberButton from './NumberButton';
 import { numbers } from '../../../data';
 //import any components needed
@@ -27,3 +27,5 @@ const Numbers = () => {
     </div>
   );
 };
+
+export default Numbers;

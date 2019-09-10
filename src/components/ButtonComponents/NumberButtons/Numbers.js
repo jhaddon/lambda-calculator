@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import NumberButton from './NumberButton';
 import { numbers } from '../../../data';
 //import any components needed
@@ -11,8 +11,8 @@ import { numbers } from '../../../data'
 const Numbers = () => {
   // STEP 2 - add the imported data to state
 
-  const [numbersState] = useState(numbers);
-  console.log("numbers", useState());
+  //const [numbersState] = useState(numbers);
+  //console.log("numbers", useState());
 
   return (
     <div>
@@ -20,7 +20,7 @@ const Numbers = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/
 
-        numbersState.map((numbers, index) => (
+        numbers.map((numbers, index) => (
           <NumberButton key={index} numbers={numbers} />
         ))}
 

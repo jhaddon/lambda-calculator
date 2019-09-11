@@ -5,11 +5,12 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
-}
-.display {
+    margin: auto;
+  }
+  .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 375px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -18,5 +19,78 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 5rem;
+    margin: auto;
+  }
+  
+  .logo {
+    width: 20%;
+    margin: 20px 20px 5px;
+  }
+  
+  .App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .numButton,
+  .oprButton,
+  .spcButton {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    box-shadow: 1px 1px black;
+    color: white;
+    margin: 10px;
+  }
+  
+  .spcButton {
+    background: #1f61af;
+  }
+  .oprButton {
+    background: #3cb5e4;
+  }
+  
+  .numButton {
+    background: #113c77;
+  }
+  
+  .spcBtn {
+      display: flex;
+    }
+    
+    .numBtn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .oprBtn {
+        display: flex;
+        flex-direction: column;
+    }
+
+  .left {
+      width: 275px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+  }
+
+  .right {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .keypad {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
   }

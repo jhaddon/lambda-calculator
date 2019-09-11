@@ -1,4 +1,4 @@
-.container {
+/* .container {
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
@@ -19,4 +19,84 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  } */
+
+  .container {
+    background-color: #c00025;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 15px;
+    border: 2px solid grey;
+    padding-bottom: 25px;
+    margin: auto;
+  }
+  .display {
+    margin-top: 25px;
+    height: 100px;
+    width: 375px;
+    border-radius: 50px;
+    color: white;
+    background-color: #322c2d;
+    box-shadow: 1px 1px #322c2d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 8%;
+    font-size: 5rem;
+    margin: auto;
+  }
+  
+  .logo {
+    width: 20%;
+    margin: 20px 20px 5px;
+  }
+  
+  .App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: auto; */
+  }
+  
+  .number-button,
+  .operator-button,
+  .special-button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    box-shadow: 1px 1px black;
+    color: white;
+    margin: 10px;
+  }
+  
+  .spcButton {
+    background: #1f61af;
+  }
+  
+  .spcBtn {
+      width: 50%;
+      display: flex;
+  }
+  
+  .numBtn {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .oprBtn {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .oprButton {
+    background: #3cb5e4;
+  }
+  
+  .numButton {
+    background: #113c77;
   }
